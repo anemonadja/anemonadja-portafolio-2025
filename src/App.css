@@ -7,9 +7,35 @@ body {
 }
 
 /*Tablet*/
-@media (max-width: 830px) {
+@media (max-width: 1200px) {
+  body {
+    background-image: url('/public/wallp13_1920x1080.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
+
+@media (max-width: 1000px) {
   body {
     background-image: url('/public/wallp13_1024x1366.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+} 
+
+@media (max-width: 850px) {
+  body {
+    background-image: url('/public/wallp13_1024x1366.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    background-image: url('/public/wallp13_640x960.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
